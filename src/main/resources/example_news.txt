@@ -1,0 +1,1170 @@
+/*<![CDATA[*/ (function() { if (window.bbcdotcom && bbcdotcom.config.isActive('ads')) { googletag.cmd.push(function() { googletag.display('bbccom_interstitial'); }); } }()); /*]]>*/   /*<![CDATA[*/ (function() { var wallpaper; if (window.bbcdotcom && bbcdotcom.config.isActive('ads')) { if (bbcdotcom.config.isAsync()) { googletag.cmd.push(function() { googletag.display('bbccom_wallpaper'); }); } else { googletag.display("wallpaper"); } wallpaper = bbcdotcom.adverts.adRegister.getAd('wallpaper'); } }()); /*]]>*/   /*<![CDATA[*/ (function() { if (window.bbcdotcom && bbcdotcom.config.isActive('ads')) { document.write(unescape('%3Cscript id="gnlAdsEnabled" class="bbccom_display_none"%3E%3C/script%3E')); } if (window.bbcdotcom && bbcdotcom.config.isActive('analytics')) { document.write(unescape('%3Cscript id="gnlAnalyticsEnabled" class="bbccom_display_none"%3E%3C/script%3E')); } }()); /*]]> */              <![CDATA[ <section> <div id="bbccookies" class="bbccookies-banner orb-banner-wrapper bbccookies-d"> <div id="bbccookies-prompt" class="orb-banner b-g-p b-r b-f"> <h2 class="orb-banner-title"> Cookies on the BBC website  </ h2 >  <p class="orb-banner-content" dir="ltr"> The BBC has updated its cookie policy. We use cookies to ensure that we give you the best experience on our website. This includes cookies from third party social media websites if you visit a page which contains embedded content from social media. Such third party cookies may track your use of the BBC website.<span class="bbccookies-in ternational-message"> We and our partners also use cookies to ensure we show you advertising that is relevant to you. </ span >  If you continue without changing your settings, we'll assume that you are happy to receive all cookies on the BBC website. However, you can change your cookie settings at any time.  </ p >  <ul class="orb-banner-options"> <li id="bbccookies-continue"> <button type="button" id="bbccookies-continue-button">Continue </ button >   </ li >  <li id="bbccookies-settings"> <a href="/privacy/cookies/managing/cookie-settings.html">Change settings </ a >   </ li >  <li id="bbccookies-more"><a href="/privacy/cookies/bbc">Find out more </ a > </ li > </ ul >   </ div >   </ div >   </ section >  ]]>   /*<![CDATA[*/ (function(){if(bbccookies._showPrompt()){var g=document,b=g.getElementById("blq-pre-mast"),e=g.getElementById("blq-bbccookies-tmpl"),a,f;if(b&&g.createElement){a=g.createElement("div");f=e.innerHTML;f=f.replace("<"+"![CDATA[","").replace("]]"+">","");a.innerHTML=f;b.appendChild(a);blqCookieContinueButton=g.getElementById("bbccookies-continue-button");blqCookieCont inueButton.onclick=function(){a.parentNode.removeChild(a);return false};bbccookies._setPolicy(bbccookies.readPolicy())}var c=g.getElementById("bbccookies");if(c&&!window.orb.fig("uk")){c.className=c.className.replace(/\bbbccookies-d\b/,"");c.className=c.className+(" bbccookies-w")}}})(); /*]]>*/          /*<![CDATA[*/ if (typeof bbccookies !== 'undefined' && bbccookies.isAllowed('s1')) { (function () { require(['istats-1'], function (istats) { istatsTrackingUrl = istats.getDefaultURL(); if (istats.isEnabled() && bbcFlagpoles_istats === 'ON') { sitestat(istatsTrackingUrl); } else { window.ns_pixelUrl = istatsTrackingUrl; /* used by Flash library to track */ } function sitestat(n) { var j = document, f = j.location, b = ""; if (j.cookie.indexOf("st_ux=") != -1) { var k = j.cookie.split(";"); var e = "st_ux", h = document.domain, a = "/"; if (typeof ns_ != "undefined" && typeof ns_.ux != "undefined") { e = ns_.ux.cName || e; h = ns_.ux.cDomain || h; a = ns_.ux.cPath || a } for (var g = 0, f = k.length; g < f; g++) { var m = k[g].indexOf("st_ux="); if (m != -1) { b = "&" + decodeURI(k[g].substring(m + 6)) } } bbccookies.set(e + "=; expires=" + new Date(new Date().getTime() - 60).toGMTString() + "; path=" + a + "; domain=" + h); } window.ns_pixelUrl = n;  } }); })(); } else { window.istats = {enabled: false}; } /*]]>*/
+                            Accessibility links   Skip to content Accessibility Help              BBC iD         require(['idcta/statusbar'], function(statusbar) { new statusbar.Statusbar({"id":"idcta-statusbar","publiclyCacheable":true}); });
+
+
+         Notifications
+
+
+
+
+         BBC navigation     Home     Home     News     News     Sport     Weather     Shop     Earth     Travel     Capital     iPlayer     Culture     Autos     Future     TV     Radio     CBBC     CBeebies     Food     iWonder     Bitesize     Travel     Music     Earth     Arts     Make It Digital     Taster     Nature     Local   Menu           Search
+
+
+
+
+         Search the BBC
+
+             Search the BBC
+
+
+
+
+
+         <![CDATA[ <div id="orb-panel-<%= panelname %>" class="orb-panel" aria-labelledby="orb-nav-<%= panelname %>"> <div class="orb-panel-content b-g-p b-r"> <%= panelcontent %>  </ div >   </ div >  ]]>
+
+
+
+
+
+
+
+             News navigation
+
+                        Sections
+
+     Find local news
+
+
+
+
+
+
+
+
+                     Home
+
+
+
+                     UK
+
+                  selected
+
+                     World
+
+
+
+                     Business
+
+
+
+                     Election 2017
+
+
+
+                     Tech
+
+
+
+                     Science
+
+
+
+                     Health
+
+
+
+                     Education
+
+
+
+                     Entertainment  & Arts
+
+
+
+                     Video  & Audio
+
+
+
+                     Magazine
+
+
+
+                     In Pictures
+
+
+
+                     Also in the News
+
+
+
+                     Special Reports
+
+
+
+                     Explainers
+
+
+
+                     The Reporters
+
+
+
+                     Have Your Say
+
+
+
+                     Disability
+
+
+
+
+
+
+             UK   selected
+
+                                 England
+
+
+
+                                 N. Ireland
+
+
+
+                                 Scotland
+
+
+
+                                 Alba
+
+
+
+                                 Wales
+
+
+
+                                 Cymru
+
+
+
+                                 Parliaments
+
+
+
+
+
+
+
+
+
+
+
+
+             UK
+
+
+
+
+
+
+             UK
+
+
+
+
+
+     London attack: Seven killed in vehicle and stabbing incidents
+
+
+
+
+
+                          4 June 2017
+ From the section  UK
+
+
+
+
+
+
+             These are external links and will open in a new window
+
+
+
+
+
+
+
+                 Share this with Facebook
+
+
+
+
+
+
+
+
+                 Share this with Twitter
+
+
+
+
+
+
+
+
+                 Share this with Messenger
+
+
+
+
+
+
+
+
+                 Share this with Messenger
+
+
+
+
+
+
+
+
+                 Share this with Email
+
+
+
+             Share
+
+
+             Share this with
+             These are external links and will open in a new window
+
+
+
+                             Email
+                             Share this with Email
+
+
+
+
+                             Facebook
+                             Share this with Facebook
+
+
+
+
+                             Messenger
+                             Share this with Messenger
+
+
+
+
+                             Messenger
+                             Share this with Messenger
+
+
+
+
+                             Twitter
+                             Share this with Twitter
+
+
+
+
+                             Pinterest
+                             Share this with Pinterest
+
+
+
+
+                             WhatsApp
+                             Share this with WhatsApp
+
+
+
+
+                             LinkedIn
+                             Share this with LinkedIn
+
+
+             Copy this link
+
+                 http://www.bbc.co.uk/news/uk-40146916
+
+             Read more about sharing.
+             These are external links and will open in a new window
+
+                 Close share panel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             Media playback is unsupported on your device
+
+
+
+
+
+          Media caption "Get down" - police enter bar at London Bridge
+ Seven people have been killed and at least 48 injured in a terror incident in London in which three male attackers were shot dead by police. A white van hit pedestrians on London Bridge at about 22:00 BST on Saturday, then three men got out and stabbed people in nearby Borough Market. Police said the three men were wearing fake bomb vests. One of those hurt is a police officer who was stabbed after going to help. His injuries are not life-threatening. Political parties have suspended national general election campaigning  and the prime minister is chairing a meeting of the government's Cobra emergency committee. Theresa May described Saturday night's events as "dreadful", while Labour leader Jeremy Corbyn called them "brutal and shocking".    Borough Market is an area known for its bars and restaurants which were busy on a warm summer evening. London Mayor Sadiq Khan said it was "a deliberate and cowardly attack on innocent Londoners", but the capital remained the "safest global city" and Londoners would not be cowed by terrorism.   Latest updates on London Bridge attack What we know so far In pictures: London Bridge incident World leaders condemn attack
+
+
+             Media playback is unsupported on your device
+
+
+
+
+
+          Media caption Eyewitness: "They were running and stabbing everyone"
+ It is the third terror attack in the UK in three months following the car and knife attack in Westminster in March, which left five people dead, and the Manchester bombing less than two weeks ago, in which 22 people were killed.  Metropolitan Police Assistant Commissioner Mark Rowley said it was believed there were only three attackers involved and the explosive vests they were wearing were "hoaxes". One social media user posted a photograph appearing to show an attacker lying on the ground outside a pub in the food market, with the fake vest visible. Among the main developments: More than 80 medics were sent to the scene. The injured, some of them in critical condition, are being treated in five London hospitals  The Met Police has set up a casualty bureau on  0800 096 1233  and  020 7158 0197  for people concerned about friends or relatives Two Australian citizens "have been directly impacted," says the country's Prime Minister Malcolm Turnbull Four French citizens have been injured, one seriously, according to foreign minister Jean-Yves Le Drian   BBC reporter Holly Jones, who was on the bridge at the time of the attack, said the van was "probably travelling at about 50 miles an hour". "He swerved right round me and then hit about five or six people. He hit about two people in front of me and then three behind," Ms Jones told the BBC News channel.  Another eyewitness, Robbie, was sitting in a taxi opposite the Barrowboy and Banker pub on London Bridge.
+
+
+             Media playback is unsupported on your device
+
+
+
+
+
+          Media caption Watch: The man who took the attackers' photo
+ "I saw about 20 or 30 people rushing to get back into the pub and five seconds later a big white van came screeching down the pavement," he told BBC Radio 5 live. "Two or three people jumped out. Initially, I thought it was a road traffic incident and the people had jumped out to see if anyone was injured, but I could tell immediately, they looked very aggressive."   His friend Josh came out of the pub a few seconds later and saw people running up to the bridge from Borough Market.  "A chap ran up and I heard him shout, 'He's got a knife, he's stabbing people.'"  Another witness, Gerard, told the BBC: "They were running up shouting, 'This is for Allah.' They stabbed this girl maybe 10 times, 15 times. She was going, 'Help me, help me.'" Gerard said he chased the attackers, who were running into pubs and bars, and threw bottles, chairs and other items to try to stop them. Steven Gibbs, who was drinking in St Christopher's Inn, just metres from the scene, told the BBC: "A black cab drove past and the driver shouted, 'Terrorist attack, run!'  "I stood up to take a look and then all of a sudden there were gunshots. Lots of people were screaming." Steven was taken into the basement of the bar before the police came in and told everyone inside to run. "I've never been so scared in my life," he said, At the scene: Cherry Wilson, BBC News website
+
+
+
+
+
+
+
+
+         No-one has been able to clean up the empty pint glasses on the tables outside Belushi's bar on Borough High Street - a stark reminder of what happened in London Bridge last night. It's 8am and dozens of police cars and cordons remain in the area, blocking anyone from walking up to Borough Market, where the tragedy unfolded. Dozens of people wait by the police cut-off areas in a confused state trying to work out how to get home or to work.  But no-one is prepared to give up. There is a determined resilience in the air with nurses and railway workers walking miles out of their way to try to get to their jobs. Security officer Mohammed Osman, who works on Borough High Street, had to wait for an hour before he was allowed through to his place of work. He said: "I'm not feeling worried. I'm strong enough. These enemies are trying to divide us but we have to be together."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         Terrorism begins to feel like the new normal Analysis by Dominic Casciani, home affairs correspondent With three attacks in close proximity, terrorism against soft targets is beginning to feel, to some people, like the new normal.  The brutal reality is that this kind of threat is absolutely typical of what jihadists sought to achieve in all their attacks across Europe. Since 2013 security services in the UK have foiled 18 plots. A large proportion of those have involved suspects who set out to commit acts of violence similar to the attack on Westminster Bridge and London Bridge. Plans to use bombs, such as at Manchester Arena, are rarer because plotters need to have the technical skills for such an appalling attack - but attacking people with cars and knives is far easier and has long been encouraged by so-called Islamic State and other jihadists.  The aim of the three attackers last night is abundantly clear - not only did they want to kill, but they almost wanted to lose their own lives.  They would've known full well that attacking people in the street would draw armed police in their direction and the fake bomb belts they were wearing would, in their own warped minds, hasten their demise.
+
+
+
+
+
+
+
+
+         A bomb disposal team was later called to Borough Market and local residents told to leave their homes.    Eyewitness Will Orton, who was also in a pub close to the scene, said: "The bouncers did a really good job, they shut the doors and locked everyone in.  "There was panic - it seemed like it was literally outside the door." Vilwar Hussein helped carry the injured police officer to nearby Guy's hospital and recalled seeing a wound in his chest "and blood everywhere". Earlier, Vilwar said he'd seen the white van perform a U-turn on London Bridge before driving back southwards along the pavement.
+
+
+             Media playback is unsupported on your device
+
+
+
+
+
+          Media caption "He swerved right round me, then hit five or six people": BBC reporter Holly Jones
+
+
+
+
+
+
+
+                  Image copyright
+                  Reuters
+
+
+
+
+                 Image caption
+
+                    Ordinary people were led away from the scene with their hands up amid concerns attackers could attempt to blend in with the crowd
+
+
+
+
+
+
+
+
+
+
+                  Image copyright
+                  PA
+
+
+
+
+                 Image caption
+
+                    People ran down Borough High Street to escape the danger
+
+
+
+
+
+
+
+
+
+
+                  Image copyright
+                  Getty Images
+
+
+
+
+                 Image caption
+
+                    Counter-terrorism specialist firearm officers were later in attendance
+
+
+
+
+
+
+
+
+
+
+                  Image copyright
+                  Getty Images
+
+
+
+
+                 Image caption
+
+                    Ambulances attended to the injured on London Bridge
+
+
+
+         London Bridge and neighbouring Southwark Bridge are both closed along with many other roads including Borough High Street and Lower Thames Street. Trains are not stopping at London Bridge station. Facebook has activated its safety check so people in London could post a message to let friends and relatives know they were safe. The police are asking anyone with photographs or videos of the incident to  upload them here.
+
+
+
+
+
+
+                  Image copyright
+                  Getty Images
+
+
+
+
+                 Image caption
+
+                    Police led people to safety after the attack
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Image caption
+
+                    Police and ambulance could be seen on the south side of London Bridge
+
+
+
+         Were you in the area? Have you seen what has happened? If you are willing to do so, share with us by emailing  haveyoursay@bbc.co.uk . Please include a contact number if you are willing to speak to a BBC journalist. You can also contact us in the following ways: WhatsApp:  +44 7555 173285
+ Send pictures/video to  yourpics@bbc.co.uk
+ Upload your pictures / video here Tweet:  @BBC_HaveYourSay
+ Text an SMS or MMS to  61124  (UK) or  +44 7624 800 100  (international)
+
+
+
+
+         Or use the form below
+
+
+
+                             Your contact details
+
+                                    Name
+                                         (optional)
+
+
+
+
+
+                                    Your E-mail address
+                                         (required)
+
+
+
+
+
+                                    Town  & Country
+                                         (optional)
+
+
+
+
+
+                                    Your telephone number
+                                         (optional)
+
+
+
+
+
+                                    Comments
+                                         (required)
+
+
+
+
+
+                         If you are happy to be contacted by a BBC journalist please leave a telephone number that we can
+                        contact you on. In some cases a selection of your comments will be published, displaying your name as
+                        you provide it and location, unless you state otherwise. Your contact details will never be published.
+                        When sending us pictures, video or eyewitness accounts at no time should you endanger yourself or others,
+                        take any unnecessary risks or infringe any laws. Please ensure you have read the terms and conditions.
+
+                         Terms and conditions
+
+
+
+
+
+
+
+
+
+
+
+
+
+     Related Topics
+
+                 Metropolitan Police Service
+
+
+
+
+
+
+        Share this story         About  sharing
+
+
+
+             Email
+
+
+
+             Facebook
+
+
+
+             Messenger
+
+
+
+             Messenger
+
+
+
+             Twitter
+
+
+
+             Pinterest
+
+
+
+             WhatsApp
+
+
+
+             LinkedIn
+
+
+
+
+
+               More on this story                        London attack: What we know so far           5 June 2017                              London attack: Latest updates           3 June 2017
+
+
+
+
+
+
+
+
+
+            UK live reporting
+
+
+
+
+
+
+
+             Live
+
+                 Latest updates: London attack
+
+
+
+
+
+
+
+         Full article Latest updates: London attack
+
+
+
+     Top Stories
+
+         Two London attackers named by police
+                     Khuram Butt and Rachid Redouane were among three men who carried out Saturday's terror attack, police say.
+                     5 June 2017
+
+
+         Election latest: Question Time Special
+                     5 June 2017
+
+
+         BA blames human error for travel chaos
+                     5 June 2017
+
+
+
+
+
+        Features
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 How are UK extremists radicalised?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 'I wanted to be with other Londoners'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 London attack: How people fought back
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 What's behind crisis with Qatar?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Confronting the demons - Falklands veterans 35 years on
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 10 unshakeable truths of the election campaign
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 How has armed policing changed?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Are most of us unintentionally racist?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Tennis and politics clash on Australian centre court
+
+
+
+
+
+
+
+
+
+
+
+
+     News navigation
+
+
+             UK
+                             Sections
+
+                         England
+
+                         N. Ireland
+
+                         Scotland
+
+                         Alba
+
+                         Wales
+
+                         Cymru
+
+                         Parliaments
+
+
+
+
+
+
+                         Home
+
+
+
+                         UK
+
+                      selected
+
+                                 UK Home
+                                             England
+                                             N. Ireland
+                                             Scotland
+                                             Alba
+                                             Wales
+                                             Cymru
+                                             Parliaments
+
+
+
+
+                         World
+
+
+
+                                 World Home
+                                             Africa
+                                             Asia
+                                             Australia
+                                             Europe
+                                             Latin America
+                                             Middle East
+                                             US  & Canada
+
+
+
+
+                         Business
+
+
+
+                                 Business Home
+                                             Your Money
+                                             Market Data
+                                             Markets
+                                             Companies
+                                             Economy
+
+
+
+
+                         Election 2017
+
+
+
+                                 Election 2017 Home
+                                             Constituencies
+                                             Reality Check
+                                             Poll Tracker
+                                             Manifesto Guide
+                                             Cymru
+
+
+
+
+                         Tech
+
+
+
+                         Science
+
+
+
+                         Health
+
+
+
+                         Education
+
+
+
+                                 Education Home
+                                             School Report
+                                             Global Education
+
+
+
+
+                         Entertainment  & Arts
+
+
+
+                         Video  & Audio
+
+
+
+                         Magazine
+
+
+
+                         In Pictures
+
+
+
+                         Also in the News
+
+
+
+                         Special Reports
+
+
+
+                         Explainers
+
+
+
+                         The Reporters
+
+
+
+                         Have Your Say
+
+
+
+                         Disability
+
+
+
+
+
+
+
+
+
+
+         BBC News Services
+
+                 On your mobile
+
+                 On your connected tv
+
+                 Get news alerts
+
+                 Contact BBC News
+
+
+
+
+
+
+
+                        Explore the BBC       Home     Home     News     News     Sport     Weather     Shop     Earth     Travel     Capital     iPlayer     Culture     Autos     Future     TV     Radio     CBBC     CBeebies     Food     iWonder     Bitesize     Travel     Music     Earth     Arts     Make It Digital     Taster     Nature     Local                     Terms of Use     About the BBC     Privacy Policy     Cookies     Accessibility Help     Parental Guidance     Contact the BBC     Advertise with us     Ad choices       Copyright  © 2017 BBC.  The BBC is not responsible for the content of external sites.  Read about our approach to external linking.                  /*<![CDATA[*/ if (window.bbcdotcom && window.bbcdotcom.analytics) { bbcdotcom.analytics.page(); } /*]]>*/   /*<![CDATA[*/ if (window.bbcdotcom && bbcdotcom.currencyProviders) { bbcdotcom.currencyProviders.write(); } /*]]>*/   /*<![CDATA[*/ if (window.bbcdotcom && bbcdotcom.currencyProviders) { bbcdotcom.currencyProviders.postWrite(); } /*]]>*/   /*<![CDATA[*/ if (window.bbcdotcom && bbcdotcom.data && bbcdotcom.data.stats && bbcdotcom.data.stats === 1 && bbcdotcom.utils && window.location.pathname === '/' && window.bbccookies && bbccookies.readPolicy('performance') ) { var wwhpEdition = bbcdotcom.utils.getMetaPropertyContent('wwhp-edition'); var _sf_async_config={}; /** CONFIGURATION START **/ _sf_async_config.uid = 50924; _sf_async_config.domain = "bbc.co.uk"; _sf_async_config.title = "Homepage"+(wwhpEdition !== '' ? ' - '+wwhpEdition : ''); _sf_async_config.sections = "Homepage"+(wwhpEdition !== '' ? ', Homepage - '+wwhpEdition : ''); _sf_async_config.region = wwhpEdition; _sf_async_config.path = "/"+(wwhpEdition !== '' ? '?'+wwhpEdition : ''); /** CONFIGURATION END **/ (function(){ function loadChartbeat() { window._sf_endpt=(new Date()).getTime(); var e = document.createElement("script"); e.setAttribute("language", "javascript"); e.setAttribute("type", "text/javascript"); e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js'); document.body.appendChild(e); } var oldonload = window.onload; window.onload = (typeof window.onload != "function") ? loadChartbeat : function() { oldonload(); loadChartbeat(); }; })(); } /*]]>*/         (function() {
+    'use strict';
+
+    var promoManager = {
+        url: '',
+        promoLoaded: false,
+                makeUrl: function (theme, site, win) {
+            var loc = win? win.location : window.location,
+                proto = loc.protocol,
+                host = loc.host,
+                url = proto + '//' + ((proto.match(/s:/i) && !host.match(/^www\.(int|test)\./i))? 'ssl.' : 'www.'),
+                themes = ['light', 'dark'];
+
+            if ( host.match(/^(?:www|ssl|m)\.(int|test|stage|live)\.bbc\./i) ) {
+                url += RegExp.$1 + '.';
+            }
+            else if ( host.match(/^pal\.sandbox\./i) ) {
+                url += 'test.';
+            }
+
+                        theme = themes[ +(theme === themes[0]) ];
+
+           return url + 'bbc.co.uk/navpromo/card/' + site + '/' + theme;
+        },
+                init: function(node) {
+            var disabledByCookie = (document.cookie.indexOf('ckns_orb_nopromo=1') > -1),
+                that = this;
+
+            if (window.promomanagerOverride) {
+                for (var p in promomanagerOverride) {
+                    that[p] = promomanagerOverride[p];
+                }
+            }
+
+            if ( window.orb.fig('uk') && !disabledByCookie ) {
+                require(['orb/async/_footerpromo', 'istats-1'], function(promo, istats) {
+
+                    var virtualSite = istats.getSite() || 'default';
+                    that.url = (window.promomanagerOverride || that).makeUrl('light', virtualSite);
+
+                    if (that.u rl) {
+                        promo.load(that.url, node, {
+                                                          onSuccess: function(e) {
+                                if(e.status === 'success') {
+                                    node.parentNode.className = node.parentNode.className + ' orb-footer-promo-loaded';
+                                    promoManager.promoLoaded = true;
+                                    promoManager.event('promo-loaded').fire(e);
+                                }
+                             },
+                             onError: function() {
+                                istats.log('error', 'orb-footer-promo-failed');
+                                bbccookies.set('ckns_orb_nopromo=1; expires=' + new Date(new Date().getTime() + 1000 * 60 * 10).toGMTString() + ';path=/;');
+                             }
+                        });
+                    }
+                });
+            }
+        }
+    };
+
+
+    define('orb/promomanager', ['orb/lib/_event'], function (event) {
+        event.mixin(promoManager);
+        return promoManager;
+    });
+
+    require(['orb/promomanager'], function (promoManager) {
+        promoManager.init(document.getElementById('navp-orb-footer-promo'));
+    })
+})();
+
+
+
+        require.config({
+            paths: {
+                "mybbc/templates": '//mybbc.files.bbci.co.uk/notification-ui/3.8.0/templates',
+                "mybbc/notifications": '//mybbc.files.bbci.co.uk/notification-ui/3.8.0/js'
+            }
+        });
+
+        require(['mybbc/notifications/NotificationsMain', 'idcta/idcta-1'], function (NotificationsMain, idcta) {
+            var loadNotifications = function (fig) {
+                if (fig.geo.isUK()) {
+                    NotificationsMain.run(idcta, '//mybbc.files.bbci.co.uk/notification-ui/3.8.0/');
+                }
+            };
+            var orbFig = window.orb.fig;
+            if (typeof orbFig.load === 'function') {
+                // Use new async API from Orbit
+                orbFig.load(loadNotifications, loadNotifications);
+            } else {
+                // Use old sync-only API from PAL orbfig project
+                loadNotifications(orbFig);
+            }
+        });
+
+
+   if (typeof require !== 'undefined') { require(['istats-1'], function(istats){ istats.track('external', { region: document.getElementsByTagName('body')[0] }); istats.track('download', { region: document.getElementsByTagName('body')[0] }); }); }
+
+ if( window.SEARCHBOX.suppress === false && window.SEARCHBOX.locale && /^en-?.*?/.test(window.SEARCHBOX.locale) ){
+   require.config({
+     paths: {
+       "search/searchbox": window.SEARCHBOX.searchboxAppStaticPrefix
+     }
+   });
+
+   require(['search/searchbox/searchboxDrawer'], function(SearchboxDrawer) {
+     SearchboxDrawer.run(window.SEARCHBOX);
+   });
+ }
+
+
+              require(["istats-1","orb/cookies"],function(t,o){if(o.isAllowed("s1"))try{if(!require.s.contexts._.config.paths.idcta)return void t.invoke();require(["idcta/idcta-1"],function(o){o&&"function"==typeof o.getIStatsLabels&&t.addLabels(o.getIStatsLabels()),t.invoke()},function(t){throw t})}catch(o){console&&"function"==typeof console.log&&console.log("an exception occurred while adding idcta labels to istats, invoking istats without them",o),t.invoke()}});           window.old_onload = window.onload; window.onload = function() { if(window.old_onload) { window.old_onload(); } window.loaded = true; };
+
+    /** CONFIGURATION START **/
+    var _sf_async_config = {};
+
+    _sf_async_config.uid = "50924";
+    _sf_async_config.domain = "www.bbc.co.uk";
+    _sf_async_config.sections = "News, News - uk, News - STY, News - uk - STY";
+    <!-- if page is an index, add the edition to the path -->
+    _sf_async_config.path = "bbc.co.uk/news/uk-40146916";
+
+        (function() {
+        var noCookies = true;
+        var cookiePrefix = '_chartbeat';
+        if ("object" === typeof bbccookies && typeof bbccookies.readPolicy == 'function') {
+            noCookies = !bbccookies.readPolicy().performance;
+        }
+        if (noCookies && document.cookie.indexOf(cookiePrefix) !== -1) {
+            //Find and remove cookies whose names begin with '_chartbeat'
+            var cookieSplit = document.cookie.split(';');
+            var cookieLength = cookieSplit.length;
+            while (cookieLength--) {
+                var cookie = cookieSplit[cookieLength].replace(/^\s+|\s+$/g, '');
+                var cookieName = cookie.split('=')[0];
+
+                if (cookieName.indexOf(cookiePrefix) === 0) {
+                    document.cookie = cookieName + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/;';
+                }
+            }
+        }
+        _sf_async_config.noCookies = noCookies;
+    }());
+
+    /** CONFIGURATION END **/
+    (function(){
+        function loadChartbeat() {
+            window._sf_endpt=(new Date()).getTime();
+            var e = document.createElement("script");
+            e.setAttribute("language", "javascript");
+            e.setAttribut e("type", "text/javascript");
+            e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+            document.body.appendChild(e);
+        }
+        var oldonload = window.onload;
+        window.onload = (typeof window.onload != "function") ?
+            loadChartbeat : function() { oldonload(); loadChartbeat(); };
+    }());
+
+
+
+
+	var _comscore = _comscore || [];
+	_comscore.push({ c1: "2", c2: "17986528"});
+
+	(function() {
+        if ('object' === typeof bbccookies && bbccookies.cookiesEnabled() && bbccookies.readPolicy('performance')) {
+            var s = document.createElement("script");
+            var el = document.getElementsByTagName("script")[0];
+            s.async = true;
+            s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+            el.parentNode.insertBefore(s, el);
+        }
+	})();
